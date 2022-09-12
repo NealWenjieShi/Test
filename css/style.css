@@ -1,0 +1,324 @@
+/*************** index page ***************/
+
+#homecontainer {
+    height: 700px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.aboutuspic {
+    max-width: 100%;
+    width: 40%;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+#about-text {
+    font-family: cursive;
+    margin-top: 30px;
+    font-size: larger;
+    width: 50%;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+#home-centent {
+    display: flex;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+#home-image {
+    margin-top: 30px;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#mail {
+    font-family: cursive;
+    text-decoration: none;
+    color: rgb(74, 152, 176);
+    font-size: larger;
+}
+
+#contact {
+    margin-top: 28px;
+    font-family: cursive;
+
+}
+
+/*******************************************/
+
+
+/*********** contact page *************/
+
+.text-center {
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/***********************************/
+
+.contact-title {
+    color: tomato;
+}
+
+
+/*********** login page *************/
+
+#login-signup {
+    font-family: cursive;
+    font-size: large;
+}
+
+#logincontainer {
+    font-family: cursive;
+    text-align: center;
+}
+
+
+/***********************************/
+
+
+/*********** signup page ***********/
+
+#login-signup {
+    font-family: cursive;
+    font-size: large;
+}
+
+#err_msg {
+    size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+#signupcontainer {
+    font-family: cursive;
+    text-align: center;
+    margin-top: 10px;
+}
+
+small {
+    color: red;
+    display: block;
+}
+
+.textInfo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1.5px black solid;
+}
+
+/********************************/
+
+
+/*********** all buttons and input/option box ***********/
+
+#btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+#dropdown {
+    padding-right: 5px;
+}
+
+#search {
+    padding-left: 5px;
+}
+
+#filter {
+    border-radius: 8px;
+    border: 1px solid rgb(74, 152, 176);
+    width: 110px;
+    height: 21px;
+}
+
+#searchbox {
+    border-radius: 8px;
+    border: 1px solid rgb(74, 152, 176);
+    width: 110px;
+    height: 19px;
+}
+
+#filterbtn,
+#searchbtn {
+    height: 23px;
+    width: 55px;
+    background-color: rgb(173, 228, 244);
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+#filterbtn:hover,
+#searchbtn:hover,
+#submitbtn:hover,
+#resetbtn:hover,
+#loginbtn:hover {
+    background-color: rgb(156, 224, 245);
+}
+
+#loginbtn {
+    height: 21px;
+    width: 55px;
+    background-color: rgb(173, 228, 244);
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+#submitbtn,
+#resetbtn {
+    height: 25px;
+    width: 70px;
+    background-color: rgb(173, 228, 244);
+    border-radius: 8px;
+    color: white;
+    border: none;
+    margin-top: 5px;
+}
+
+/********************************************************/
+
+
+/* ************ footer *********** */
+
+#line2 {
+    margin-top: 20px;
+    border: 0;
+    padding-top: 3px;
+    background: linear-gradient(to right, transparent, rgb(173, 228, 244), transparent);
+}
+
+footer #copyright {
+    text-align: center;
+    height: 40px;
+    font-family: cursive;
+    background-color: rgb(173, 228, 244);
+}
+
+footer #copyright p {
+    margin: 0;
+    line-height: 40px;
+}
+
+/* ******************************** */
+
+@media (max-width: 1200px) {
+    #home-centent {
+        flex-wrap: wrap;
+    }
+
+    #about-text {
+        width: 100%;
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    #home-image {
+        width: 100%;
+    }
+
+    #contact {
+        text-align: center;
+        width: 100%;
+    }
+
+    #copyright {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    #home-centent {
+        flex-wrap: wrap;
+    }
+
+    #about-text {
+        width: 100%;
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    #home-image {
+        width: 100%;
+    }
+
+    #contact {
+        text-align: center;
+        width: 100%;
+    }
+
+    #copyright {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 667px) {
+    #home-centent {
+        flex-wrap: wrap;
+    }
+
+    #about-text {
+        margin-left: 25px;
+        width: 100%;
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    #home-image {
+        width: 100%;
+    }
+
+
+    #btns {
+        display: block;
+        margin-top: 30px
+    }
+
+    #search {
+        text-align: center;
+        padding-top: 2px;
+    }
+
+    #searchbox {
+        width: 105px;
+    }
+
+    #filterbtn {
+        height: 20px;
+    }
+
+    #searchbtn {
+        height: 20px;
+        margin-right: 0.5rem;
+    }
+
+    #contact {
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+    }
+
+    #copyright {
+        font-size: 14px;
+    }
+
+    #searchbox {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+}

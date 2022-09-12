@@ -1,0 +1,93 @@
+/************** header 1 ***************/
+
+#indexgridcontainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 21px 10px 21px;
+    background-color: rgb(173, 228, 244);
+}
+
+#storename {
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+#logincreatesearch {
+    text-align: right;
+    align-self: center;
+}
+
+
+#indexgridcontainer a {
+    text-decoration: none;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 10%;
+    border-radius: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: rgb(173, 228, 244) 3px solid;
+}
+
+#line {
+    border: 0;
+    padding: 1.5px;
+    width: 80%;
+    max-width: 900px;
+    background: linear-gradient(145deg, red, orange, green, blue, purple);
+}
+
+header {
+    font-family: cursive;
+}
+
+.headernav {
+    text-decoration: none;
+    font-family: cursive;
+    font-size: x-large;
+    color: black;
+}
+
+.headernav:hover {
+    color: darkgoldenrod;
+}
+
+#headerright {
+    text-align: right;
+}
+
+#sign-up,
+#login {
+    text-decoration: none;
+}
+
+#sign-up:hover,
+#login:hover,
+#mail:hover {
+    color: darkgoldenrod;
+}
+
+/*****************************************/
+
+
+/************** header 2 ***************/
+
+#header2 {
+    text-align: center;
+}
+
+#header2 a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#header2 a:hover {
+    color: darkgoldenrod;
+}
+
+/*****************************************/
